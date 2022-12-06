@@ -1,0 +1,101 @@
+/* CSS reset */
+
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .head, .links {
+    text-align: center;
+  }
+  
+  body {
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url('http://i.imgur.com/9kh3G8L.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font: italic small-caps bold 12px/30px Georgia, serif;
+    height: 100vh;
+    justify-content: center;
+  
+  }
+  
+  img {
+    background-color: #666;
+    border-radius: 50%;
+    filter: grayscale(50%);
+    /*height: 120px;*/
+    padding: 1px;
+    transition: all 0.5s ease-in-out;
+    /*width: 120px;*/
+  }
+  
+  img:hover {
+    filter: grayscale(20%);
+    transform: scale(1.1);
+  }
+  
+  .head, .content {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .head, .about {
+    margin-bottom: 10%;
+  }
+  
+  .content {
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+    padding: 5% 10%;
+  }
+  
+  .profile-card {
+    /*background-color:rgba(255,255,0,0.3);*/
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    max-width: calc(100vw - 10px);
+    width: 480px;
+  }
+  
+  /*.head {
+    background-color:rgba(0,255,0,0.3);
+  }*/
+  
+  .profile-image {
+   /* background-color:rgba(255,0,255,0.3);*/
+    margin-top: -80px;
+  }
+  
+  /*
+  .name-headline {
+    background-color:rgba(255,0,255,0.3);
+  } */
+  
+  /*
+  .content {
+    background-color:rgba(0,255,0,0.3);
+  } */
+  
+  /*
+  .about {
+    background-color:rgba(255,0,255,0.3);
+  } */
+  
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }
+  /*
+  .links { */
+    
+  
