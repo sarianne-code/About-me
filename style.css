@@ -14,7 +14,7 @@
   body {
     align-items: center;
     background-attachment: fixed;
-    background-image: url('http://i.imgur.com/9kh3G8L.jpg');
+    background-image: url(assets/20220803_072921.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,18 +26,18 @@
   }
   
   img {
-    background-color: #666;
+    /*background-color: #666;*/
     border-radius: 50%;
     filter: grayscale(50%);
-    height: 130px;
+    height: 200px;
     padding: 2px;
     transition: all 0.5s ease-in-out;
-    width: 120px;
+    width: 190px;
   }
   
   img:hover {
     filter: grayscale(20%);
-    transform: scale(1.1);
+    transform: scale(3.1);
   }
   
   .head, .content {
@@ -55,38 +55,39 @@
   }
   
   .profile-card {
-    background-color:rgba(255,255,0,0.3);
-    /*background-color: hsla(0, 0%, 100%, .5); */
+    /*background-color:rgba(255,255,0,0.3);*/
+    background-color: hsla(0, 0%, 100%, .5);
     border-radius: 4px;
     box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
     max-width: calc(100vw - 10px);
     width: 480px;
   }
   
+  /*
   .head {
     background-color:rgba(0,255,0,0.3);
   }
-  
+  */
   .profile-image {
-    background-color:rgba(255,0,255,0.3);
+  /*  background-color:rgba(255,0,255,0.3); */
     margin-top: -80px;
   }
   
-  
+  /*
   .name-headline {
     background-color:rgba(255,0,255,0.3);
   } 
-  
-  
+  */
+  /*
   .content {
     background-color:rgba(0,255,0,0.3);
   }
-  
-  
+ */ 
+ /* 
   .about {
     background-color:rgba(255,0,255,0.3);
   } 
-  
+  */
   
   ul {
     list-style-type: none;
